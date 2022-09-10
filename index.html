@@ -9,50 +9,69 @@
   <body>
     <h1>Первое задание.</h1>
     <h2>Нумерованный список гиперссылок:</h2>
-    <div>
-      <ol>
-        <li>
-          <a href="http://example.com"
-            >Абсолютная гиперссылка на главную страницу сайта example.com;</a
-          >
-        </li>
-        <li>
-          <a href="https://example.com"
-            >Абсолютная гиперссылка на главную страницу сайта example.com в
-            протоколе https;</a
-          >
-        </li>
-        <li>
-          <a href="ftp://server/objects.file.html"
-            >Ссылка на файл на сервере FTP без авторизации</a
-          >
-        </li>
-        <li>
-          <a href="ftp://user:6856@server/objects.file.html"
-            >Ссылка на файл на сервере FTP с авторизацией</a
-          >
-        </li>
-        <li>
-          <a href="https://www.google.com/doodles"
-            >Ссылка на раздел сайта google.com</a
-          >
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ol>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#list">Список ссылок</a></li>
+        <li><a href="#form">Форма</a></li>
+      </ul>
+    </nav>
+    <section class="list" id="list">
+      <div>
+        <ol>
+          <li>
+            <a href="http://example.com"
+              >Абсолютная гиперссылка на главную страницу сайта example.com;</a
+            >
+          </li>
+          <li>
+            <a href="https://example.com"
+              >Абсолютная гиперссылка на главную страницу сайта example.com в
+              протоколе https;</a
+            >
+          </li>
+          <li>
+            <a href="ftp://server/objects.file.html"
+              >Ссылка на файл на сервере FTP без авторизации</a
+            >
+          </li>
+          <li>
+            <a href="ftp://user:6856@server/objects.file.html"
+              >Ссылка на файл на сервере FTP с авторизацией</a
+            >
+          </li>
+          <li>
+            <a href="https://www.google.com/doodles"
+              >Ссылка на раздел сайта google.com</a
+            >
+          </li>
+          <li><a href="#top">Ссылка на фрагмент текущей страницы</a></li>
+          <li>
+            <a href="https://google.com?par1=1&par2=p2"
+              >Ссылка с двумя параметрами URL</a
+            >
+          </li>
+          <li>
+            Список ссылок с основной навигации сайта с подписями title
+            <ul>
+              <li><a href="#list">Список гиперссылок</a></li>
+              <li><a href="#form">Форма</a></li>
+            </ul>
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </div>
+    </section>
+    <div class="form" id="form"></div>
   </body>
 </html>
