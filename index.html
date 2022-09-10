@@ -8,13 +8,13 @@
   </head>
   <body>
     <h1>Первое задание.</h1>
-    <h2>Нумерованный список гиперссылок:</h2>
     <nav>
       <ul>
         <li><a href="#list">Список ссылок</a></li>
         <li><a href="#form">Форма</a></li>
       </ul>
     </nav>
+    <h2>Нумерованный список гиперссылок:</h2>
     <section class="list" id="list">
       <div>
         <ol>
@@ -65,8 +65,8 @@
             >
           </li>
           <li>
-            <noindex
-              ><a href="https://google.com">Неиндексируемая ссылка</a></noindex
+            <a href="https://google.com" rel="nofollow"
+              >Неиндексируемая ссылка</a
             >
           </li>
           <li>
@@ -79,8 +79,8 @@
               ><img
                 src="https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1"
                 alt="Описание"
-                height="150px"
-                width="150px"
+                height="150"
+                width="150"
             /></a>
           </li>
           <li>
@@ -97,19 +97,19 @@
               <map name="map"
                 ><area
                   shape="rect"
-                  coords="0,0, 200,100"
+                  coords="0,0 200,100"
                   href="https://google.com"
                   alt="google"
                 />
                 <area
                   shape="rect"
-                  coords="100,150, 280, 250"
+                  coords="100,150 280, 250"
                   href="https://yandex.ru"
                   alt="yandex"
                 />
                 <area
                   shape="circle"
-                  coords="150,350, 100"
+                  coords="150,350 100"
                   href="https://mail.ru"
                   alt="mail"
                 />
@@ -208,7 +208,7 @@
           <br />
           <textarea
             name="field-area"
-            id=""
+            id="field-area"
             cols="30"
             rows="10"
             placeholder="Текстовое поле"
